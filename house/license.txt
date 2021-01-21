@@ -1,0 +1,11 @@
+Model Information:
+* title:	House of the Necromancer
+* source:	https://sketchfab.com/3d-models/house-of-the-necromancer-7b6a3cd710e4455a90cc42b23864af5a
+* author:	ulita.korshunova (https://sketchfab.com/ulita.korshunova)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "House of the Necromancer" (https://sketchfab.com/3d-models/house-of-the-necromancer-7b6a3cd710e4455a90cc42b23864af5a) by ulita.korshunova (https://sketchfab.com/ulita.korshunova) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
