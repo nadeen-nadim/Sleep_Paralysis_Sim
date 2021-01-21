@@ -63,7 +63,7 @@ function init() {
 //loadingScreen.box.position.set(0,0,5);
   loadingScreen.font_loader.load('helvetiker_regular.typeface.json', function ( font ) {
 
-    var geometry = new THREE.TextGeometry( "Welcome to the world of sleep paralysis\n"+"Bewarned you will feel overwhelmed\n"+" and confused \n"+"Continue on your own risk \n" + "Loading..."
+    var geometry = new THREE.TextGeometry( "Welcome to the world of sleep paralysis\n"+"Bewarned you will feel overwhelmed\n"+" and confused \n"+"Continue on your own risk \n" + "Loading... ~ 3 minutes"
     
     , {
       font: font,
@@ -138,14 +138,14 @@ story = new THREE.Mesh(geometry,textMaterial);
     animate();
   });
 
- /* loader.load("./city/scene.gltf", function(gltf) {
+  loader.load("./city/scene.gltf", function(gltf) {
     scene.add(gltf.scene);
     city = gltf.scene.children[0];
     city.position.set(-30, 20, 20);
     city.scale.set(3, 3, 3);
     animate();
   });
-*/
+
   loader.load("./buddha/scene.gltf", function(gltf) {
     buddha = gltf.scene.children[0];
     buddha.scale.set(0.02,0.02,0.02);
@@ -155,37 +155,37 @@ story = new THREE.Mesh(geometry,textMaterial);
   });
 
 
- /* loader.load("./school/scene.gltf", function(gltf) {
+  loader.load("./school/scene.gltf", function(gltf) {
     school = gltf.scene.children[0];
     school.scale.set(5,5,5);
     school.position.set(60, -5, -10);
     scene.add(school);
     animate();
-  });*/
+  });
 
- /* loader.load("./massacre/scene.gltf", function(gltf) {
+  loader.load("./massacre/scene.gltf", function(gltf) {
     mass = gltf.scene.children[0];
     mass.scale.set(10,10,10);
     mass.position.set(-5, 0, 40);
     scene.add(mass);
     animate();
-  });*/
+  });
 
- /* loader.load("./electric/scene.gltf", function(gltf) {
+  loader.load("./electric/scene.gltf", function(gltf) {
     electric = gltf.scene.children[0];
     electric.scale.set(7,7,7);
     electric.position.set(10, 0, -30);
     scene.add(electric);
     animate();
-  });*/
+  });
 
- /* loader.load("./med/scene.gltf", function(gltf) {
+  loader.load("./med/scene.gltf", function(gltf) {
     med = gltf.scene.children[0];
     med.scale.set(-500,-500,-500);
     med.position.set(10, -5, 30);
     scene.add(med);
     animate();
-  });*/
+  });
 
   animate();
 
